@@ -6,7 +6,7 @@ services:
   - docker
 
 before_script:
-  - sudo apt-get install package  
+  - sudo apt-get install python3.6  
   - pip install docker-compose
 
 script:
