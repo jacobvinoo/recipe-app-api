@@ -1,0 +1,10 @@
+docker-compose run --rm app sh -c "python manage.py test && flake8"
+
+
+docker-compose run --rm app sh -c "python manage.py startapp recipe"
+
+
+admin.py and models.py in core app
+
+
+docker-compose run --rm app sh -c "python manage.py makemigrations"
